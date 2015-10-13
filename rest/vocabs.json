@@ -1,0 +1,16 @@
+{  
+   "schemes":[  
+      {  
+         "name":"agrovoc"
+      },
+      {  
+         "name":"metal"
+      },
+      {  
+         "name":"ncbi"
+      },
+      {  
+         "name":"uat"
+      }
+   ]
+}

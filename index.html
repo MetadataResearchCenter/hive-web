@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HIVE - Helping with Interdisciplinary Vocabulary Engineering</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--<link rel="stylesheet" href="css/bootstrap-theme.css">-->
+    <link rel="stylesheet" href="css/hive.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">HIVE</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="concepts.html">Concept Browser</a></li>
+                <li><a href="indexing.html">Indexing</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container page-body">
+    <h3>Welcome to HIVE!</h3>
+
+    <p>Helping Interdisciplinary Vocabulary Engineering (HIVE) is an IMLS funded project involving the Metadata Research Center (MRC) at the School of Information and Library Science, University of North Carolina at Chapel Hill, and the National Evolutionary Synthesis Center (NESCent) in Durham, North Carolina. Below you will find our experimental, yet fully functioning HIVE system. You are welcome to try our SKOS-based system by browsing concepts from interdisciplinary vocabularies or experience a new approach to automatic metadata generation by using the indexing feature.</p>
+    <hr>
+
+    <div class="col-lg-9">
+        <h4>Vocabulary Statistics</h4>
+
+        <div id="vocab_data"></div>
+    </div>
+    <div class="col-lg-3">
+        <div class="row">
+            <h4><a href="concepts.html">Search a Concept</a></h4>
+
+            <p>Browse and search concepts in selected vocabularies.</p>
+        </div>
+        <div class="row">
+            <h4><a href="indexing.html">Index a Document</a></h4>
+
+            <p>Automatically extract document concepts for subject metadata creation.</p>
+        </div>
+        <hr>
+        <div class="row">
+            <p style="font-size: .9em; font-style: italic;">This HIVE system is for demo purposes and may change in response to your feedback. <a href="mailto:mrc.metadata@drexel.edu">Contact us.</a></p><br>
+
+            <p><img src="img/mrc_logo.png" class="img-responsive"></p>
+        </div>
+    </div>
+</div>
+<div class="container page-footer">
+    <p>&copy; Metadata Research Center and National Evolutionary Synthesis Center</p>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/hive.js"></script>
+</body>
+</html>

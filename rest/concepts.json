@@ -1,0 +1,525 @@
+{  
+   "concepts":[  
+      {  
+         "uri":"http://purl.org/astronomy/uat#T1829",
+         "type":[  
+            "http://www.w3.org/2004/02/skos/core#Concept"
+         ],
+         "prefLabel":"Very Large Telescope",
+         "altLabel":[  
+            "VLT"
+         ],
+         "broader":[  
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1750",
+               "prefLabel":"Telescopes"
+            }
+         ],
+         "inScheme":"http://purl.org/astronomy/uat#",
+         "score":"0.001"
+      },
+      {  
+         "uri":"http://purl.org/astronomy/uat#T170",
+         "type":[  
+            "http://www.w3.org/2004/02/skos/core#Concept"
+         ],
+         "prefLabel":"Black holes",
+         "broader":[  
+            {  
+               "uri":"http://purl.org/astronomy/uat#T299",
+               "prefLabel":"Compact stars"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1669",
+               "prefLabel":"Stellar remnants"
+            }
+         ],
+         "narrower":[  
+            {  
+               "uri":"http://purl.org/astronomy/uat#T236",
+               "prefLabel":"Charged black holes"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T266",
+               "prefLabel":"Classical black holes"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T496",
+               "prefLabel":"Event horizons"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1142",
+               "prefLabel":"Nonrotating black holes"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1329",
+               "prefLabel":"Primordial black holes"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1457",
+               "prefLabel":"Rotating black holes"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1654",
+               "prefLabel":"Stellar mass black holes"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1714",
+               "prefLabel":"Supermassive black holes"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1811",
+               "prefLabel":"Uncharged black holes"
+            }
+         ],
+         "related":[  
+            {  
+               "uri":"http://purl.org/astronomy/uat#T15",
+               "prefLabel":"Accretion disks"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T167",
+               "prefLabel":"Black hole physics"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T686",
+               "prefLabel":"Gravitational singularities"
+            }
+         ],
+         "inScheme":"http://purl.org/astronomy/uat#",
+         "score":"0.001"
+      },
+      {  
+         "uri":"http://purl.org/astronomy/uat#T1168",
+         "type":[  
+            "http://www.w3.org/2004/02/skos/core#Concept"
+         ],
+         "prefLabel":"Observational astronomy",
+         "altLabel":[  
+            "Imaging of stars",
+            "Stellar imaging"
+         ],
+         "narrower":[  
+            {  
+               "uri":"http://purl.org/astronomy/uat#T36",
+               "prefLabel":"Amateur astronomy"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T86",
+               "prefLabel":"Astronomical location"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T88",
+               "prefLabel":"Astronomical object identification"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T90",
+               "prefLabel":"Astronomical optics"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T96",
+               "prefLabel":"Astronomical site protection"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T97",
+               "prefLabel":"Astronomical spectroscopy"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T98",
+               "prefLabel":"Astronomical transits"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T101",
+               "prefLabel":"Astrophotography"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T123",
+               "prefLabel":"Axial tilt"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T173",
+               "prefLabel":"Blinking"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T194",
+               "prefLabel":"Bright point"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T324",
+               "prefLabel":"Coronographic imaging"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T328",
+               "prefLabel":"Cosmic background radiation"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T337",
+               "prefLabel":"Cosmic ray astronomy"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T414",
+               "prefLabel":"Doppler imaging"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T415",
+               "prefLabel":"Doppler shift"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T422",
+               "prefLabel":"Drift scan imaging"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T512",
+               "prefLabel":"Extrasolar planet detection"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T542",
+               "prefLabel":"Field of view"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T544",
+               "prefLabel":"Finding charts"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T545",
+               "prefLabel":"Finding lists"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T636",
+               "prefLabel":"Gamma-ray astronomy"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T687",
+               "prefLabel":"Gravitational wave astronomy"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T698",
+               "prefLabel":"Ground-based astronomy"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T721",
+               "prefLabel":"Heliocentric correction"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T751",
+               "prefLabel":"High angular resolution"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T752",
+               "prefLabel":"High energy astronomy"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T754",
+               "prefLabel":"High time resolution astrophysics"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T810",
+               "prefLabel":"Infrared astronomy"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T940",
+               "prefLabel":"Limb brightening"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T941",
+               "prefLabel":"Limb darkening"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1015",
+               "prefLabel":"Magnitude"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1047",
+               "prefLabel":"Meridian observation"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1123",
+               "prefLabel":"Neutrino astronomy"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1167",
+               "prefLabel":"Observation techniques"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1169",
+               "prefLabel":"Observational cosmology"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1170",
+               "prefLabel":"Observatories"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1171",
+               "prefLabel":"Occultation"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1194",
+               "prefLabel":"Optical doubles"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1196",
+               "prefLabel":"Optical identification"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1270",
+               "prefLabel":"Photometry"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1307",
+               "prefLabel":"Pointing accuracy"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1346",
+               "prefLabel":"Purkinje effect"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1380",
+               "prefLabel":"Radar astronomy"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1389",
+               "prefLabel":"Radio astronomy"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1428",
+               "prefLabel":"Reddening"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1800",
+               "prefLabel":"Ultraviolet astronomy"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1837",
+               "prefLabel":"Visible astronomy"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1840",
+               "prefLabel":"Visual observation"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1868",
+               "prefLabel":"X-ray astronomy"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1895",
+               "prefLabel":"Zeeman–Doppler imaging"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1897",
+               "prefLabel":"Zenith hourly rate"
+            }
+         ],
+         "related":[  
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1750",
+               "prefLabel":"Telescopes"
+            }
+         ],
+         "inScheme":"http://purl.org/astronomy/uat#",
+         "score":"0.001"
+      },
+      {  
+         "uri":"http://purl.org/astronomy/uat#T1170",
+         "type":[  
+            "http://www.w3.org/2004/02/skos/core#Concept"
+         ],
+         "prefLabel":"Observatories",
+         "broader":[  
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1168",
+               "prefLabel":"Observational astronomy"
+            }
+         ],
+         "narrower":[  
+            {  
+               "uri":"http://purl.org/astronomy/uat#T46",
+               "prefLabel":"Antarctic observatories"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T413",
+               "prefLabel":"Domes"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T639",
+               "prefLabel":"Gamma-ray observatories"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T815",
+               "prefLabel":"Infrared observatories"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1199",
+               "prefLabel":"Optical observatories"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1399",
+               "prefLabel":"Radio observatories"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1555",
+               "prefLabel":"Solar observatories"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1591",
+               "prefLabel":"Space observatories"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1804",
+               "prefLabel":"Ultraviolet observatories"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1876",
+               "prefLabel":"X-ray observatories"
+            }
+         ],
+         "inScheme":"http://purl.org/astronomy/uat#",
+         "score":"0.001"
+      },
+      {  
+         "uri":"http://purl.org/astronomy/uat#T974",
+         "type":[  
+            "http://www.w3.org/2004/02/skos/core#Concept"
+         ],
+         "prefLabel":"Lunar eclipses",
+         "broader":[  
+            {  
+               "uri":"http://purl.org/astronomy/uat#T457",
+               "prefLabel":"Eclipses"
+            }
+         ],
+         "narrower":[  
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1468",
+               "prefLabel":"Saros cycle"
+            }
+         ],
+         "inScheme":"http://purl.org/astronomy/uat#",
+         "score":"0.001"
+      },
+      {  
+         "uri":"http://purl.org/astronomy/uat#T513",
+         "type":[  
+            "http://www.w3.org/2004/02/skos/core#Concept"
+         ],
+         "prefLabel":"Extrasolar planets",
+         "altLabel":[  
+            "Exoplanets"
+         ],
+         "broader":[  
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1297",
+               "prefLabel":"Planets"
+            }
+         ],
+         "narrower":[  
+            {  
+               "uri":"http://purl.org/astronomy/uat#T454",
+               "prefLabel":"Eccentric Jupiters"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T770",
+               "prefLabel":"Hot Jupiters"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T771",
+               "prefLabel":"Hot Neptunes"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T797",
+               "prefLabel":"Hypothetical planets"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T899",
+               "prefLabel":"Kepler Objects of Interest"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1342",
+               "prefLabel":"Pulsar planets"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1456",
+               "prefLabel":"Rogue planets"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1704",
+               "prefLabel":"Super Earths"
+            }
+         ],
+         "inScheme":"http://purl.org/astronomy/uat#",
+         "score":"0.001"
+      },
+      {  
+         "uri":"http://purl.org/astronomy/uat#T1470",
+         "type":[  
+            "http://www.w3.org/2004/02/skos/core#Concept"
+         ],
+         "prefLabel":"Saturn",
+         "broader":[  
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1222",
+               "prefLabel":"Outer planets"
+            }
+         ],
+         "inScheme":"http://purl.org/astronomy/uat#",
+         "score":"0.001"
+      },
+      {  
+         "uri":"http://purl.org/astronomy/uat#T886",
+         "type":[  
+            "http://www.w3.org/2004/02/skos/core#Concept"
+         ],
+         "prefLabel":"Jupiter",
+         "broader":[  
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1222",
+               "prefLabel":"Outer planets"
+            }
+         ],
+         "inScheme":"http://purl.org/astronomy/uat#",
+         "score":"0.001"
+      },
+      {  
+         "uri":"http://purl.org/astronomy/uat#T1189",
+         "type":[  
+            "http://www.w3.org/2004/02/skos/core#Concept"
+         ],
+         "prefLabel":"Open star clusters",
+         "altLabel":[  
+            "Open clusters"
+         ],
+         "broader":[  
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1610",
+               "prefLabel":"Star clusters"
+            }
+         ],
+         "narrower":[  
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1153",
+               "prefLabel":"O clusters"
+            },
+            {  
+               "uri":"http://purl.org/astronomy/uat#T1890",
+               "prefLabel":"Young star clusters"
+            }
+         ],
+         "inScheme":"http://purl.org/astronomy/uat#",
+         "score":"0.001"
+      },
+      {  
+         "uri":"http://purl.org/astronomy/uat#T1825",
+         "type":[  
+            "http://www.w3.org/2004/02/skos/core#Concept"
+         ],
+         "prefLabel":"Venus",
+         "broader":[  
+            {  
+               "uri":"http://purl.org/astronomy/uat#T821",
+               "prefLabel":"Inner planets"
+            }
+         ],
+         "inScheme":"http://purl.org/astronomy/uat#",
+         "score":"0.001"
+      }
+   ]
+}

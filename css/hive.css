@@ -1,0 +1,57 @@
+html {
+    overflow-y: scroll;
+}
+
+p {
+    text-align: justify;
+}
+
+.page-footer > p {
+    text-align: center;
+    font-size: .85em;
+}
+
+.page-body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#extracted_concepts h4 {
+    display: inline;
+    margin-right: 20px;
+}
+
+.concept-name {
+    color: #2e6da4;
+    cursor: pointer;
+}
+
+.concept-name:hover {
+    text-decoration: underline;
+}
+
+.yellow {
+    /*background-color: #ffca43;*/
+    /*color: white;*/
+    font-weight: bold;
+}
+
+#concept_info td {
+    padding: 5px;
+}
+
+#concept_info table > tbody > tr > td:first-child {
+    width: 200px;
+}
+
+#indexing_url {
+    width: 100%;
+}
+
+.indexing-actions {
+    margin-bottom: 20px;
+}
+
+#skos_text {
+    height: 300px;
+}
